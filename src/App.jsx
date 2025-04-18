@@ -97,7 +97,7 @@ function App() {
 					packages.map((value , index) => (
 						<div key={index}>
 							<h3>{value.name}</h3>
-							<h4>Courier Charge: {value.courier_charges}</h4>
+							<h4>Courier Charge: {value.courier_charge}</h4>
 							{value.package_item.length > 0 ? (
 								value.package_item.map((pi, pi_idx) => (
 									<ul>
